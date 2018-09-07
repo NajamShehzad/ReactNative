@@ -21,8 +21,6 @@ class AlbumList extends Component {
         ))
     }
     render() {
-        const { albums } = this.state;
-        console.log(albums);
         return (
             <View>
                 {this.renderAlbums()}
