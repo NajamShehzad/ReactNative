@@ -6,8 +6,8 @@ export default class App extends React.Component {
   render() {
     return (
       <View>
-        <Header name={"Header Albums"} />
-        <AlbumList/>
+        <Header name={"Albums"} />
+        <AlbumList />
       </View>
     );
   }

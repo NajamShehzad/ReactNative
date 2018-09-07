@@ -13,7 +13,6 @@ class AlbumList extends Component {
         axios.get('https://rallycoding.herokuapp.com/api/music_albums')
             .then(res => this.setState({ albums: res.data }))
             .catch(err => console.log(err));
-        // console.log("Is it working?");
     }
     renderAlbums() {
         return this.state.albums.map(album => (
